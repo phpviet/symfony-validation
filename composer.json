@@ -29,6 +29,11 @@
             "PHPViet\\Symfony\\Validation\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPViet\\Symfony\\Validation\\Tests\\": "tests"
+        }
+    },
     "config": {
         "sort-packages": true
     },
