@@ -1,0 +1,40 @@
+{
+    "name": "phpviet/symfony-validation",
+    "type": "symfony-bundle",
+    "description": "Symfony validation hổ trợ kiểm tra dữ liệu đặc thù trong nước",
+    "keywords": [
+        "phpviet",
+        "yii-validation"
+    ],
+    "homepage": "https://github.com/phpviet/symfony-validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vuong Xuong Minh",
+            "email": "vuongxuongminh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "phpviet/validation": "^1.0",
+        "symfony/framework-bundle": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5",
+        "scrutinizer/ocular": "^1.5",
+        "symfony/validator": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPViet\\Symfony\\Validation\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+	}
+}
