@@ -11,6 +11,8 @@ use Symfony\Component\Validator\Constraint;
 use PHPViet\Validation\Rules\IpVN as BaseIpVN;
 
 /**
+ * @Annotation
+ *
  * @author Vuong Minh <vuongxuongminh@gmail.com>
  * @since 1.0.0
  */

@@ -10,6 +10,8 @@ namespace PHPViet\Symfony\Validation\Constraints;
 use Symfony\Component\Validator\Constraint;
 
 /**
+ * @Annotation
+ *
  * @author Vuong Minh <vuongxuongminh@gmail.com>
  * @since 1.0.0
  */
