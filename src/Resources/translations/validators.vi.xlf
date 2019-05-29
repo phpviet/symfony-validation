@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>This is not a valid Vietnam id number.</source>
+                <target>Giá trị không phải là số chứng minh thư hoặc thẻ căn cước tại Việt Nam.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>This is not a valid Vietnam ipv4.</source>
+                <target>Giá trị không phải là địa chỉ ipv4 của Việt Nam.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>This is not a valid Vietnam ipv6.</source>
+                <target>Giá trị không phải là địa chỉ ipv6 của Việt Nam.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>This is not a valid Vietnam ip.</source>
+                <target>Giá trị không phải là địa chỉ ip của Việt Nam.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>This is not a valid Vietnam land line phone number.</source>
+                <target>Giá trị không phải là số điện thoại bàn tại Việt Nam.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>This is not a valid Vietnam mobile phone number.</source>
+                <target>Giá trị không phải là số di động tại Việt Nam.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
