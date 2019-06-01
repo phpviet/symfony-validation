@@ -36,7 +36,7 @@ class IpVNValidator extends ConstraintValidator
         }
     }
 
-    protected function getCode(int $ipVersion): string
+    protected function getCode(?int $ipVersion): string
     {
         switch ($ipVersion) {
             case IpVN::IPV4:
