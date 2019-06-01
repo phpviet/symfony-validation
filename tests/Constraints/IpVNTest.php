@@ -16,7 +16,6 @@ use PHPViet\Symfony\Validation\Constraints\IpVNValidator;
  */
 class IpVNTest extends TestCase
 {
-
     public function testValid(): void
     {
         $this->context->expects($this->never())->method('buildViolation');
