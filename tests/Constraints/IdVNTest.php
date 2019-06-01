@@ -16,7 +16,6 @@ use PHPViet\Symfony\Validation\Constraints\IdVNValidator;
  */
 class IdVNTest extends TestCase
 {
-
     public function testValid()
     {
         $this->context->expects($this->never())->method('buildViolation');
@@ -37,6 +36,4 @@ class IdVNTest extends TestCase
     {
         return IdVNValidator::class;
     }
-
-
 }

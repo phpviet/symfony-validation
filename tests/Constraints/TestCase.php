@@ -15,7 +15,6 @@ use PHPUnit\Framework\TestCase as BaseTestCase;
  */
 abstract class TestCase extends BaseTestCase
 {
-
     /**
      * @var \Symfony\Component\Validator\Context\ExecutionContextInterface|\PHPUnit_Framework_MockObject_MockObject
      */
@@ -46,5 +45,4 @@ abstract class TestCase extends BaseTestCase
     }
 
     abstract protected function getValidatorClass(): string;
-
 }

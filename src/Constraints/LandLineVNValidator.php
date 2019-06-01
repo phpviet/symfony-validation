@@ -7,9 +7,9 @@
 
 namespace PHPViet\Symfony\Validation\Constraints;
 
-use PHPViet\Validation\Validator as ConcreteValidator;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
+use PHPViet\Validation\Validator as ConcreteValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 
 /**
@@ -18,13 +18,12 @@ use Symfony\Component\Validator\Exception\UnexpectedTypeException;
  */
 class LandLineVNValidator extends ConstraintValidator
 {
-
     /**
      * {@inheritdoc}
      */
     public function validate($value, Constraint $constraint): void
     {
-        if (!$constraint instanceof LandLineVN) {
+        if (! $constraint instanceof LandLineVN) {
             throw new UnexpectedTypeException($constraint, LandLineVN::class);
         }
 
@@ -35,5 +34,4 @@ class LandLineVNValidator extends ConstraintValidator
                 ->addViolation();
         }
     }
-
 }

@@ -16,7 +16,6 @@ use PHPViet\Symfony\Validation\Constraints\MobileVNValidator;
  */
 class MobileVNTest extends TestCase
 {
-
     public function testValid()
     {
         $this->context->expects($this->never())->method('buildViolation');
@@ -37,5 +36,4 @@ class MobileVNTest extends TestCase
     {
         return MobileVNValidator::class;
     }
-
 }

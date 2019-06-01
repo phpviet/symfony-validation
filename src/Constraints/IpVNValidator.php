@@ -7,9 +7,9 @@
 
 namespace PHPViet\Symfony\Validation\Constraints;
 
-use PHPViet\Validation\Validator as ConcreteValidator;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
+use PHPViet\Validation\Validator as ConcreteValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 
 /**
@@ -18,13 +18,12 @@ use Symfony\Component\Validator\Exception\UnexpectedTypeException;
  */
 class IpVNValidator extends ConstraintValidator
 {
-
     /**
      * {@inheritdoc}
      */
     public function validate($value, Constraint $constraint): void
     {
-        if (!$constraint instanceof IpVN) {
+        if (! $constraint instanceof IpVN) {
             throw new UnexpectedTypeException($constraint, IpVN::class);
         }
 
@@ -47,5 +46,4 @@ class IpVNValidator extends ConstraintValidator
                 return IpVN::IP_VN_ERROR;
         }
     }
-
 }

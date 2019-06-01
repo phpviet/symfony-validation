@@ -36,5 +36,4 @@ class LandLineVNTest extends TestCase
     {
         return LandLineVNValidator::class;
     }
-
 }
