@@ -1,7 +1,7 @@
 <?php
 /**
  * @link https://github.com/vuongxuongminh/symfony-validation
- * @copyright Copyright (c) 2019 Vuong Xuong Minh
+ * @copyright (c) PHP Viet
  * @license [MIT](http://www.opensource.org/licenses/MIT)
  */
 
